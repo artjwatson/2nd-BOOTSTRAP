@@ -21,7 +21,19 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
+    
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     />
+    <style>
+      h1 {
+        font-family: 'Pacifico', cursive;
+      }
+      h2 {
+        font-family: 'Caveat', 'Pacifico', cursive;
+      }
+    </style>
+    
   </head>
   <body>
     <!-- Optional JavaScript -->
@@ -45,7 +57,7 @@
     <!-- NavBar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="#">Bistros Jacksonville, FL</a>
+      <a class="navbar-brand" href="#"><h1>Bistros</h1>Jacksonville, FL</a>
 
       <!-- Toggler/collapsibe Button -->
       <button
@@ -70,7 +82,7 @@
             <a class="nav-link" href="#">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><h5>(800) 555-1234</h5></a>
+            <a class="nav-link" href="#"><h5><strong> (800) 555-1234</strong></h5></a>
           </li>
         </ul>
       </div>
@@ -79,19 +91,20 @@
     <!-- New Best Restaurant -->
     <section class="container-fluid">
       <div class="row text-center">
-        <div class="col-md-12">
-          <h3>Voted Best New Restaurant in Jacksonville!</h3>
+        <div class="col-md-12" style="padding-top: 80px; padding-bottom: 40px;">
+          <h2><strong>Voted Best New Restaurant in Jacksonville!</strong></h2>
         </div>
-        <div class="col-md-12">
-          <button class="btn-primary btn">Order Online</button>
+        <div class="col-md-12" style="padding-bottom: 50px;">
+          <button class="btn-primary btn" style="border-radius: 20px;">Order Online</button>
         </div>
       </div>
+      <hr>
     </section>
 
     <!-- Our Menus -->
     <section class="container-fluid">
         <div class="row text-center">
-            <div class="col-md-12">
+            <div class="col-md-12" style="padding-bottom: 50px; padding-top: 30px;">
               <h3>Our Menus</h3>
             </div>
         <div class="row text-center">
@@ -101,7 +114,7 @@
                 alt="Beignets"
                 class="img-fluid"
               />
-            <p>Breakfast</p>
+            <p style="font-style: oblique;">Breakfast</p>
             </div>
         <div class="col-md-4">
             <img
@@ -109,7 +122,7 @@
             alt="Bread Pudding"
             class="img-fluid"
           />
-            <p>Lunch</p>
+            <p style="font-style: oblique;">Lunch</p>
             </div>
         <div class="col-md-4">
             <img
@@ -117,7 +130,7 @@
             alt="Bananas Foster"
             class="img-fluid"
           />
-            <p>Dinner</p>
+            <p style="font-style: oblique;">Dinner</p>
             </div>
         </div>
     </section>
@@ -125,21 +138,27 @@
     <!-- Our Chef -->
     <section class="container-fluid">
         <div class="row text-left">
-          <div class="col-md-6">
+          <div class="col-md-6" style="padding-top: 50px;">
+            <hr>
             <h5>Our Chef</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur maxime a nobis temporibus commodi, eligendi laudantium? Ratione in architecto fugit labore temporibus qui, soluta error ullam dolores amet similique! Voluptatem vitae explicabo quos porro consequuntur debitis deleniti, architecto delectus, aliquam ab accusantium eveniet sint. Delectus harum eveniet officia ullam?</p>
-            <i class="fab fa-facebook-square font-size: 50px"></i>
-            <i class="fab fa-twitter-square font-size: 50px"></i>
-            <i class="fab fa-yelp font-size: 50px"></i> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur maxime a nobis temporibus commodi, eligendi laudantium? Ratione in architecto fugit labore temporibus qui, soluta error ullam dolores amet similique! <br><br>Voluptatem vitae explicabo quos porro consequuntur debitis deleniti, architecto delectus, aliquam ab accusantium eveniet sint. Delectus harum eveniet officia ullam?</p>
+            <i class="fab fa-facebook-square font-size: 500px"></i>
+            <i class="fab fa-twitter-square font-size: 500px"></i>
+            <i class="fab fa-yelp font-size: 500px"></i> 
           </div>
     
-          <div class="col-md-6">
+          <div class="col-md-6" style="padding-top: 50px;">
+            <hr>
             <h5>Reviews</h5>
             <!-- <span class="d-block p-2 bg-primary text-white">d-block</span> -->
             <i class="fas fa-utensils"></i>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, rerum!</p>
             <h6>Jacksonville JUL 2020</h6>
+            <hr>
             <!-- <span class="d-block p-2 bg-dark text-white">d-block</span> -->
+            <i class="fas fa-drumstick-bite"></i>
+            <i class="fas fa-drumstick-bite"></i>
+            <i class="fas fa-drumstick-bite"></i>
             <i class="fas fa-drumstick-bite"></i>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, quos?</p>
             <h6>Jacksonville JUL 2020</h6>
@@ -150,13 +169,13 @@
       <!-- Footer -->
       <section class="container-fluid">
         <div class="row text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" style="padding-top: 70px;">
             <p>Copyright 2020, Bistros, LLC</p>
             </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-top: 70px;">
            <p>Bistros 1501 N Main St, Jax, FL 32206</p>
             </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-top: 70px; padding-bottom: 50px;">
             <p>Privacy Policy | Terms of Use</p>
             </div>
         </div>
